@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="new.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<title>Aura Café</title>
+<script src="extra.js">
+    
+</script>
+</head>
+<body >
+        <nav class="toppane"> 
+            <ul class="nav">
+                <li class="nav-item" style=" text-decoration: none;">
+                    <a style=" text-decoration: none;"href="#two">  
+                        <img src="aura-logo-canva.png" alt="Aura_cafe Logo" class="nav-img">
+                    </a>
+                </li>
+                <li  class="nav-item" >
+                    <a style=" text-decoration: none;"href="#first">Home   </a>
+                </li>
+                <li  class="nav-item" >
+                    <a style=" text-decoration: none;"href="#two">About  </a>
+                </li>
+                <li  class="nav-item">
+                    <a style=" text-decoration: none;"href="#third">Services   </a>
+                </li>
+                <li class="nav-item">
+                    <a style=" text-decoration: none;" href="#four">Menu   </a>
+                </li>		
+                <li class="nav-item">
+                    <a style=" text-decoration: none;" href="#five">Contact us   </a>
+                </li>
+                <li class="nav-item">
+                    <a style=" text-decoration: none;" href="#six">Photos  </a>
+                </li>
+            </ul>
+        </nav> 
+
+    <div class="container">
+    <div id="first">
+        <div class="leftpane">
+            <h2>Today's Special items!</h2>
+            <p>
+                Garden Fresh Salads    
+            </p>
+            <p>
+                Cheese Sticks with side of classic Moctail
+            </p>
+            <p>
+                Smoke grilled chicken-with BBQ sauce    
+            </p>
+            <p>
+                Spaghetti
+            </p>
+            <p>
+                Cheesy Bull
+            </p>
+            <p>
+                Cappuccino
+            </p>
+            <br>
+           <p>
+            <button type="button" id="view" onclick="location.href='#four'">View Menu</button>
+           </p>
+        </div>
+        <div class="middlepane">
+            <div class="section-event">
+            	<img src="event-lunch.png" class="section-event-img">
+            	<div class="section-event-info">
+            		<h4 class="section-event-heading">
+            			 Today's Special Event!
+            		</h4>
+            		<p class="section-event-description">
+            			<span class="section-event-details">Time: 11:30 AM - 1:30 PM</span>
+            			<span class="section-event-details">Event Theme: Valentine's Day </span>
+            			<span class="section-event-details">Restriction: None!!</span>
+            		</p>
+            	</div>		    
+
+    		
+    		</div>  
+            <div class="section-event">
+            	<img src="event.png" class="section-event-img">
+            	<div class="section-event-info">
+            		<h4 class="section-event-heading">
+            			 Today's Special Event!
+            		</h4>
+            		<p class="section-event-description">
+            			<span class="section-event-details">Time: 8:30 PM - 10:30 PM</span>
+            			<span class="section-event-details">Event Theme: Valentine's Day </span>
+            			<span class="section-event-details">Restriction: Couples only!!</span>
+            		</p>
+            	</div>		    
+
+    		
+    		</div>  
+        </div>
+        <div class="rightpane">
+            <div class="right-row">
+                <div class="right-column">
+                    <img src="101.png" style="width:100%">
+                    <img src="301.png" style="width:100%">
+                    <img src="302.png" style="width:100%">
+                    <img src="501.png" style="width:100%">
+                    <img src="601.png" style="width:100%">
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>   
+
+<div id="second">
+    <div class="about-container">
+    	<div class="section">
+    		<div class="section-logo-text">
+    			<img src="aura-logo-canva.png" alt="Aura_cafe Logo" class="logo-img" id="two">
+    			<div class="section-about">
+    				<h3 class="section-welcome">
+    					<span>Welcome To Aura Café</span>
+    				</h3>
+    				
+    			</div>
+    			
+    		</div>
+
+    		<p class="section-description">
+    			Aura Café offers a unique café environment unlike any other. We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and enjoy that tailor-made cup of coffee. If you need to work, we have a seating area created specifically for you. If you need to rest, we have a soft-seating area in front of a stone fire place that is perfect for your weary mind and body. We offer a delicious variety of coffee from Safehouse Coffee made by our professionally trained baristas. We have everything from classic coffee to our house made specialty beverages.  All of our sauces & syrups are made in-house with all natural ingredients (no chemicals or preservatives) ensuring you the highest quality in taste & health.  You can complete your coffee with one of our delicious sweet treats made by our very own baker. We look forward to serving you at Aura Café!
+    		</p>  
+            <p class="section-description">
+                We have Three branches in the country that are spread across 3 different cities.
+
+            </p>
+            
+    	</div>
+    </div>
+</div>
+<div id="third">
+    <div class="Reservation">
+    	<h3 class="booking">Make a booking</h3>
+    	 <h4 class="message">Please leave your number we will call to make a reservation.</h4>
+        <div id="form-div">
+            <form name="myform"  id="Go">
+                <div id="form">
+                    <label><input name="iname" type="text" id="name" placeholder="Your Name..."></label>
+                    
+                </div>
+                <div id="form">
+                    
+                    <label><input name="inum" type="number" id="phone" placeholder="Your Phone Number..." ></label>
+                </div>	
+                <div id="form">
+                    
+                    <label><input name="iperson" type="number" id="seat" placeholder="Number of people..." ></label>
+                </div>	
+                <div id="form">
+                    
+                    <label><input name="itime" type="time" id="time" placeholder="Your time of arrival..." ></label>
+                </div>	
+                <div id="form">
+                    
+                    <label><input name="iocassion" type="text" id="occasion" placeholder="Any Special Occasion..." ></label>
+                </div>	
+                <div id="form">
+                    <button type="button" id="submit" onclick="validateform()">Submit</button>
+                    <div class="loginPopup">
+                        <div class="formPopup" id="popupForm">
+                            <p class="message-form">Your response has been submitted and we will get back to you.</p>
+                            <br>
+                            <button type="button" class="btn cancel" onclick="closeForm()">Ok</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>	
+                <!-- <button type="button" class="btn cancel" onclick="closeForm()">Ok</button> -->
+            </form> 
+        </div>
+        <p id="demo"></p>    
+    </div>
+    
+	<div class="opening-time">
+		<h3>
+			Opening times
+		</h3>
+				
+         <p>
+			<span class="day">Monday—Thursday: 09:00 AM — 22:00 PM</span>
+			<span class="day">Friday—Saturday: 09:00 AM — 23:00 PM </span>
+			<span class="day">Sunday: 10:00 AM — 22:00 PM</span>
+		</p>
+
+	</div>
+</div>
+
+<div id="four">
+    <div class="menu-container">
+        <div class="menu">
+            <h2 class="menu-group-heading">
+                Breakfast
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="101.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Continental Breakfast
+                            </span>
+                            <span class="menu-item-price">280/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Choice of eggs, grilled chicken sausages & accompaniments.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="102.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Continental Veg Breakfast
+                            </span>
+                            <span class="menu-item-price">260/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Paneer Bhurji & accompaniments.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="103.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Eggs & Toast
+                            </span>
+                            <span class="menu-item-price">190/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Choice of eggs, served with buttered toast & sauce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Garden Fresh Salads
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="201.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Grilled Chicken/Panner
+                            </span>
+                            <span class="menu-item-price">280/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Salad in Mediterranean vinaigrette.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="202.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Watermelon Fata Salad
+                            </span>
+                            <span class="menu-item-price">280/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Sweet ripe watermelon combined with salty feta cheese garden fresh basil and mint, drizzled with home made balsamic vinaigrette and garnished with roasted walnuts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Appetizers
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="301.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Veg Platter
+                            </span>
+                            <span class="menu-item-price">280/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Fried cheese sticks, cheesy jalapenos balls, crispy onion rings, spring rolls served with coleslaw & dipping sauces.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="302.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Non-Veg Platter
+                            </span>
+                            <span class="menu-item-price">300/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                         Chicken Lolliops, chicken cheese balls, crispy onion rings,egg and sausage spring rolls served with coleslaw & dipping sauces.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="303.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Crispy Onion Rings
+                            </span>
+                            <span class="menu-item-price">160/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Onion rings served with sauces & accompaniments.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="304.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Chicken Lollipops
+                            </span>
+                            <span class="menu-item-price">200/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Chicken Lollipops served with sauces .
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Pizza
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="401.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Margherita
+                            </span>
+                            <span class="menu-item-price">320/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Hand rolled thin crust dough with our home made tomato concasse sauce, organic plucked basil & unripened mild bocconicini mozzarella, stone-baked in our wood fire oven.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="402.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Chicken Contadina
+                            </span>
+                            <span class="menu-item-price">340/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Smoke grilled chicken thigh- marinated in a hot BBQ sauce, mozzarella & cheddar, sliced onions, Thai chili, pickled jalapenos & olives stonebaked in our wood fire oven.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="403.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Pepperoni
+                            </span>
+                            <span class="menu-item-price">340/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Seasoned chicken pepperoni slices, spread on a thin crust hand rolled pizza with crushed tomato, mozzarella & italian seasoning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Toasted Breads
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="501.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Garlic Bread
+                            </span>
+                            <span class="menu-item-price">220/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Bread with Garlic spread.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="502.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Cheesy Garlic Bread
+                            </span>
+                            <span class="menu-item-price">240/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Sliced bread spread with garlic butter & fresh herbs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Sandwiches
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="601.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Tomato, Basil & Cheese
+                            </span>
+                            <span class="menu-item-price">240/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Sweet succulent tomatoes, fresh garde basil, muustard & cheese in sandwich bread.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="602.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Chicken & Olive
+                            </span>
+                            <span class="menu-item-price">260/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Poached chicken mixed with olives in a light mayonnaise dressing in sandwich bread with lettuce, tomatoes & soft cheese.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Burgers
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="701.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Cheesy Bull
+                            </span>
+                            <span class="menu-item-price">250/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Classic cheese omlet served in soft burger bun.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="702.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Smoked BBQ Chicken
+                            </span>
+                            <span class="menu-item-price">280/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Tender chicken breast, grilled on a skillet served with an omlette egg, fresh lettuce, tomatoes & monterey jack cheese.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Hot Beverages
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="801.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Latte
+                            </span>
+                            <span class="menu-item-price">125/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Authectic coffee made with a bit of Magic.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="802.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Cappuccino
+                            </span>
+                            <span class="menu-item-price">150/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Authectic coffee made with a bit of Magic.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="803.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Espresso
+                            </span>
+                            <span class="menu-item-price">130/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Authectic coffee made with a bit of Magic.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="804.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Hot Chocolate
+                            </span>
+                            <span class="menu-item-price">120/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Authectic chocolate made with a bit of Magic.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="805.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Spl Tea
+                            </span>
+                            <span class="menu-item-price">120/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Authectic Tea made with a bit of Magic.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Dessert
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="901.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Brownie
+                            </span>
+                            <span class="menu-item-price">150/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Contains Egg.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="902.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Death by Chocolate
+                            </span>
+                            <span class="menu-item-price">200/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Chocolate Brownie served with Vanilla ice-cream.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="menu-group-heading">
+                Mocktails
+            </h2>
+            <div class="menu-group">
+                <div class="menu-item">
+                    <img src="1001.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Virgin Mojito
+                            </span>
+                            <span class="menu-item-price">180/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Lime, Sprite, Soda & mint
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="1002.png" class="menu-item-img" alt="food">
+                    <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                            <span class="menu-item-name">Blue Lagoon
+                            </span>
+                            <span class="menu-item-price">200/-</span>
+                        </h3>
+                        <p class="menu-item-description">
+                            Lime, Sprite, Soda & Blue- mix
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="five">
+    <div class="contact-address">
+       <div class="contact-new">
+            <h3>
+                Contact
+            </h3><br>
+        </div>
+        <div class="contact-new">
+            <p>
+                <span>9848022338,</span>
+                <span>9848012345</span>
+            </p>
+        </div>
+    </div>
+    <div class="contact-address">
+        <div class="contact-new">
+            <h3>
+                Address
+            </h3><br>
+        </div>
+        <div class="contact-new" id="address-align">
+            <p>
+                    
+                <span>Road No-36</span>
+                <span>Alcazar Mall,Jubliee Hills,Hyderabad,Telangana-500007</span>
+            </p>
+        </div>
+    </div>
+
+<div class="contact-img">
+<img src="cafe.png" alt="Café" class="cafe">
+</div>
+
+</div>
+
+<div id="six">
+    <div class="row"> 
+        <div class="column">
+          <img src="cafe.png" style="width:100%">
+          <img src="2.png" style="width:100%">
+          <img src="3.png" style="width:100%">
+          <img src="4.png" style="width:100%">
+          <img src="5.png" style="width:100%">
+          <img src="6.png" style="width:100%">
+          
+        </div>
+        <div class="column">
+          <img src="7.png" style="width:100%">
+          <img src="8.png" style="width:100%">
+          <img src="9.png" style="width:100%">
+          <img src="10.png" style="width:100%">
+          <img src="11.png" style="width:100%">
+          <img src="12.png" style="width:100%">
+        </div>  
+        <div class="column">
+          <img src="13.png" style="width:100%">
+          <img src="14.png" style="width:100%">
+          <img src="15.png" style="width:100%">
+          <img src="16.png" style="width:100%">
+          <img src="17.png" style="width:100%">
+          <img src="18.png" style="width:100%">
+        </div>
+       </div>
+</div>
+</body>
+</html>
